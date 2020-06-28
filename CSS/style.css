@@ -115,14 +115,10 @@ margin-left: 5%;
 margin-right: 5%;
 /* background-color: #1abc9c;  */
 }
-
-
 a { color: #c8c8c8;
 text-decoration: underline; 
 margin-left: 35%;
 }
-
-
 a:hover { color: #1c1c1c;
 text-decoration: underline;
 }
