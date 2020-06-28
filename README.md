@@ -13,3 +13,11 @@ https://app.dbdesigner.net/designer/schema/0-untitled-3952a64e-047a-4607-bea7-6b
 
 ## Domain Modeling
 ![](sporty.JPG)
+
+## WireFrame for sport-life-style website 
+![](HOME.png)
+![](user.png)
+![](about.png)
+![](sportLifeStyle.png)
+
+
