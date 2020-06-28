@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAHA Fitness</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
@@ -12,26 +14,48 @@
 
     </header>
     <main>
-        <form id="submitData">
-            <legend>Your data</legend>
-            <fieldset>
-                <label for="name">Name:</label>
-                <input id="name" type="text"><br>
-                <label for="age">Age:</label>
-                <input id="age" type="number"><br>
-                <label for="weight">Weight(Kg):</label>
-                <input id="weight" type="number"><br>
-                <label for="height">Height(cm)</label>
-                <input id="height" type="number"><br>
-                <label for="gender">Gender:</label><br>
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label><br>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>
-                <button>Submit</button>
-            </fieldset>
-        </form>
+        <div class="form-style-5">
+            <form id="submitData">
+                <legend><span class="number">❤</span> User Info</legend>
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" placeholder="Your Name"><br>
+                    <label for="age">Age:</label>
+                    <input id="age" type="number" placeholder="Your age"><br>
+                    <label for="weight">Weight(Kg):</label>
+                    <input id="weight" type="number" placeholder="Your Weight"><br>
+                    <label for="height">Height(cm)</label>
+                    <input id="height" type="number" placeholder="Your Height"><br>
+                    <label for="gender">Gender:</label><br>
+                    <label for="male" class="gender">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">   
+                    <label for="female" class="gender">Female</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <br>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </div>
+        
         <div id="advice" width='100px'></div>
+        <div id="info">
+            <h1>Get Fit! Get Healthy!</h1>
+            <P>For people who are considered obese (BMI greater than or equal to 30)
+                or those who are overweight (BMI of 25 to 29.9) and have two or more risk factors, it is recommended
+                that you lose weight. Even a small weight loss (between 5 and 10 percent of your current weight) will
+                help lower your risk of developing diseases associated with obesity. People who are overweight, do not
+                have a high waist measurement, and have fewer than two risk factors may need to prevent further weight
+                gain rather than lose weight.
+            </P>
+            <h2>Want an advice?!</h2>
+            <P>
+                Talk to your doctor to see whether you are at an increased risk and whether you should lose weight. Your
+                doctor will evaluate your BMI, waist measurement, and other risk factors for heart disease.
+                The good news is even a small weight loss (between 5 and 10 percent of your current weight) will help
+                lower your risk of developing those diseases.
+            </p>
+            <a href="profile.html">CHECK OUT YOUR EXERCISES!</a>
+        </div>
     </main>
     <footer>
 

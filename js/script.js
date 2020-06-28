@@ -40,14 +40,16 @@ var createUser = function(event){
     advice(user);
 }
 var advice = function(user){
-    var result = document.getElementById('advice')
+    var result = document.getElementById('advice');
     var feedback = document.createElement('p');
-    feedback.textContent = 'Hello '+user.name+' Your Body Mass Index is '+ user.healthStatus +
+    feedback.textContent = 'Hello '+user.name+', Your Body Mass Index is '+ user.healthStatus +
     ' . BMI is a useful measure of overweight and obesity.It is calculated from your height and weight. BMI is an estimate of body fat and a good gauge of your risk for diseases that can occur with more body fat.';
     var feedback2 = document.createElement('p');
+    feedback2.id='feedback';
     feedback2.textContent= 'Your daily need of calories is : '+ user.neededCalories+' Calory.';
     result.appendChild(feedback);
     result.appendChild(feedback2);
 }
 console.log(users)
 submitData.addEventListener('submit',createUser);
+
