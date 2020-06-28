@@ -8,6 +8,7 @@ function User(name,age,weight,height,gender){
     this.healthStatus = this.getHealthStatus();
     this.neededCalories = this.NoOfCalries();
     users.push(this);
+    localStorage.setItem('users',JSON.stringify(users));
 }
 User.prototype.getHealthStatus = function(){
     var bmi = this.weight / ((this.height/100)^2); //calculate Body Mass Index
@@ -35,14 +36,18 @@ var createUser = function(event){
     var weight = Number(event.target.weight.value);
     var height = Number(event.target.height.value);
     var gender= event.target.gender.value;
-    new User(name,age,weight,height,gender);
-
+    var user = new User(name,age,weight,height,gender);
+    advice(user);
 }
-// var advice = function(){
-//     var hh = document.getElementById('advice')
-//     var test = document.createElement('p');
-//     test.textContent = this.neededCalories;
-//     hh.appendChild(test);
-// }
+var advice = function(user){
+    var result = document.getElementById('advice')
+    var feedback = document.createElement('p');
+    feedback.textContent = 'Hello '+user.name+' Your Body Mass Index is '+ user.healthStatus +
+    ' . BMI is a useful measure of overweight and obesity.It is calculated from your height and weight. BMI is an estimate of body fat and a good gauge of your risk for diseases that can occur with more body fat.';
+    var feedback2 = document.createElement('p');
+    feedback2.textContent= 'Your daily need of calories is : '+ user.neededCalories+' Calory.';
+    result.appendChild(feedback);
+    result.appendChild(feedback2);
+}
 console.log(users)
 submitData.addEventListener('submit',createUser);
