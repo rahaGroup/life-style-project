@@ -52,7 +52,6 @@ Exercise.prototype.render = function () {
 Exercise.renderExercisesTable = function () {
   table.innerHTML = "";
   const trHeader = document.createElement("tr");
-
   // table heads
   const thImage = document.createElement("th");
   thImage.innerText = "IMAGE";
