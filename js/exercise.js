@@ -21,7 +21,6 @@ var createExercise = function(){
 createExercise();
 var render = function(){
     var table = document.getElementById('exe');
-    console.log(table);
     for (let i = 0; i < names.length; i++) {
         var row = document.createElement('tr');
         var imageData = document.createElement('td');
