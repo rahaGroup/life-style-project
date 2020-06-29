@@ -95,64 +95,62 @@
 
 
 /* ///////////// */
+h1 { color: #ffffff;
+font-family: 'Raleway',sans-serif;
+font-size: 62px;
+font-weight: 800;
+line-height: 72px;
+margin: 0 0 24px;
+text-align: center;
+text-transform: uppercase; }
 
-h1 {
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 62px;
-    font-weight: 800;
-    line-height: 72px;
-    margin: 0 0 24px;
-    text-align: center;
-    text-transform: uppercase;
+
+h2 { color: #ffffff;
+font-family: 'Raleway',sans-serif;
+font-size: 30px;
+font-weight: 800;
+line-height: 36px;
+margin: 20px 0 24px ;
+text-align: center; }
+
+
+p { color: #f8f8f8;
+font-family: 'Raleway',sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+margin: 0 0 24px;
+margin-left: 5%;
+margin-right: 5%;
+/* background-color: #1abc9c;  */
 }
-
-h2 {
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 36px;
-    margin: 20px 0 24px;
-    text-align: center;
+a { color: #c8c8c8;
+text-decoration: underline;
+margin-left: 35%;
 }
-
-p {
-    color: #f8f8f8;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 32px;
-    margin: 0 0 24px;
-    margin-left: 5%;
-    margin-right: 5%;
-    /* background-color: #1abc9c;  */
+a:hover { color: #1c1c1c;
+text-decoration: underline;
 }
-
-a {
-    color: #c8c8c8;
-    text-decoration: underline;
-    margin-left: 35%;
+#info, #advice {
+background-color: #1abc9c;
+width: 70%;
+margin-left: 15%;
+padding: 20px;
 }
-
-a:hover {
-    color: #1c1c1c;
-    text-decoration: underline;
+#advice{
+  margin-bottom: 20px;
 }
-
-#info,
-#advice {
-    background-color: #1abc9c;
-    width: 70%;
-    margin-left: 15%;
-    padding: 20px;
+#feedback{
+  border: 5px white solid;
+  padding: 10px;
 }
-
-#advice {
-    margin-bottom: 20px;
+/* /////////table///////// */
+iframe{
+	width:280px;
+	height:160px;
+	border:0;
 }
-
-#feedback {
-    border: 5px white solid;
-    padding: 10px;
+table img{
+	width: 200px;
+	height: 200px;
 }
