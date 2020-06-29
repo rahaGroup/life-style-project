@@ -103,6 +103,10 @@ width: 70%;
 margin-left: 15%;
 padding: 20px;
 }
+#info:hover{
+	width: 80%;
+	margin-left: 10%;
+}
 #info h1 { color: #ffffff;
 font-family: 'Raleway',sans-serif;
 font-size: 62px;
@@ -143,6 +147,10 @@ text-decoration: underline;
   width: 70%;
   margin-left: 15%;
   padding: 10px;
+}
+#advice:hover{
+	width: 80%;
+	margin-left: 10%;
 }
 #advice p {
 	padding: 20px;
