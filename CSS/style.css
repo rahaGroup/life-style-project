@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-body {
-    background-color: #f8f8f8;
+body{
+	background-color:#f8f8f8;
 }
 
 .form-style-5 {
@@ -12,6 +12,10 @@ body {
     background: rgba(234, 205, 194, 0.2);
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5:hover{
+	background: #EACDC2;
+	max-width: 550px;
 }
 
 .form-style-5 fieldset {
@@ -94,8 +98,13 @@ body {
 }
 
 .form-style-5 button:hover {
-    background: #774C60;
-    border: 1px solid #774C60;
+	border: 1px solid #774C60;
+	text-shadow: 1px 1px #F8F8F8;
+    transform: translate(-4px, -4px);
+    transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
 }
 
 
@@ -241,4 +250,28 @@ table th {
 #exercises {
     color: #B75D69;
     font-weight: bold;
+}
+#reset{
+	position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #B75D69;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 50%;
+    border: 1px solid #B75D69;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+#reset:hover {
+	border: 1px solid #774C60;
+	text-shadow: 1px 1px #F8F8F8;
+    transform: translate(-4px, -4px);
+    transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
 }
