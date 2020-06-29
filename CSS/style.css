@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body{
+	background-color:#f8f8f8;
+
+}
 .form-style-5 {
     max-width: 500px;
     padding: 10px 20px;
     background: #f4f7f8;
     margin: 10px auto;
     padding: 20px;
-    background: #f4f7f8;
+    background: rgba(234, 205, 194,0.2);
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -58,7 +62,7 @@
 }
 
 .form-style-5 .number {
-    background: #1abc9c;
+    background: #B75D69;
     color: #fff;
     height: 30px;
     width: 30px;
@@ -77,23 +81,29 @@
     padding: 19px 39px 18px 39px;
     color: #FFF;
     margin: 0 auto;
-    background: #1abc9c;
+    background: #B75D69;
     font-size: 18px;
     text-align: center;
     font-style: normal;
     width: 100%;
-    border: 1px solid #16a085;
+    border: 1px solid #B75D69;
     border-width: 1px 1px 3px;
     margin-bottom: 10px;
 }
 
 .form-style-5 button:hover {
-    background: #109177;
+	background: #774C60;
+	border: 1px solid #774C60;
 }
 
-
 /* ///////////// */
-h1 { color: #ffffff;
+#info {
+background-color: #B75D69;
+width: 70%;
+margin-left: 15%;
+padding: 20px;
+}
+#info h1 { color: #ffffff;
 font-family: 'Raleway',sans-serif;
 font-size: 62px;
 font-weight: 800;
@@ -101,7 +111,6 @@ line-height: 72px;
 margin: 0 0 24px;
 text-align: center;
 text-transform: uppercase; }
-
 
 h2 { color: #ffffff;
 font-family: 'Raleway',sans-serif;
@@ -111,8 +120,7 @@ line-height: 36px;
 margin: 20px 0 24px ;
 text-align: center; }
 
-
-p { color: #f8f8f8;
+#info p, #advice p { color: #f8f8f8;
 font-family: 'Raleway',sans-serif;
 font-size: 18px;
 font-weight: 500;
@@ -120,23 +128,25 @@ line-height: 32px;
 margin: 0 0 24px;
 margin-left: 5%;
 margin-right: 5%;
-/* background-color: #1abc9c;  */
 }
-a { color: #c8c8c8;
+#info a { color: #c8c8c8;
 text-decoration: underline;
 margin-left: 35%;
 }
-a:hover { color: #1c1c1c;
+#info a:hover { color: #1c1c1c;
 text-decoration: underline;
 }
-#info, #advice {
-background-color: #1abc9c;
-width: 70%;
-margin-left: 15%;
-padding: 20px;
-}
+
 #advice{
   margin-bottom: 20px;
+  background-color: #B75D69;
+  width: 70%;
+  margin-left: 15%;
+  padding: 10px;
+}
+#advice p {
+	padding: 20px;
+	margin-bottom: 50px;
 }
 #feedback{
   border: 5px white solid;
@@ -152,13 +162,16 @@ table img{
 	width: 200px;
 	height: 200px;
 }
-/* /////////// */
+table td:hover{
+	width: 300px;
+	height: 300px;
+}
 table {
 	border: 1px solid #ccc;
 	border-collapse: collapse;
-	margin: 0;
+	margin: 15px;
 	padding: 0;
-	width: 100%;
+	width: 98%;
 	table-layout: fixed;
   }
   

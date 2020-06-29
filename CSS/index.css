@@ -21,6 +21,18 @@ body {
     box-sizing: border-box
 }
 
+h1,
+ul,
+a,
+header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 .header {
     display: flex;
     justify-content: space-evenly;
