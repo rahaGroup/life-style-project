@@ -155,15 +155,13 @@ h2 {
     color: #372549;
 }
 
-
-footer{
-  background-color : #774c60;
-  text-align: center;
-  margin-top: 50px;
-  padding-top: 150px;
-  padding-bottom: 25px;
-
-
+footer {
+    background-color: #774c60;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 150px;
+    padding-bottom: 25px;
+}
 
 footer h2 {
     font-size: 14px;
@@ -172,20 +170,19 @@ footer h2 {
     color: #fff;
 }
 
-footer h3 strong{
-  font-size: 55px;
-  color: #fff;
+footer h3 strong {
+    font-size: 55px;
+    color: #fff;
 }
 
 footer p {
-  margin-bottom: 60px;
-  font-size: 18px;
-  color: #fff;
-
+    margin-bottom: 60px;
+    font-size: 18px;
+    color: #fff;
 }
 
-footer .contact-info .icon{
-  font-size: 25px;
+footer .contact-info .icon {
+    font-size: 25px;
     background-repeat: no-repeat;
     background-size: contain;
     min-width: 60px;
@@ -195,65 +192,60 @@ footer .contact-info .icon{
     align-items: center;
 }
 
-footer .contact-info p{
-  font-size: 20px;
+footer .contact-info p {
+    font-size: 20px;
     font-weight: 200;
     margin: 0 0 0 20px;
     color: #fff;
-
- 
 }
-
 
 footer .contact-info {
-
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 16px 0;
-
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 16px 0;
 }
 
-footer h4{
-  font-size: 25px;
+footer h4 {
+    font-size: 25px;
     font-weight: 700;
     margin: 70px 0 50px 0;
     position: relative;
     display: inline-block;
     color: #fff;
-
 }
 
-
-footer .contact-form{
-  display: flex;
+footer .contact-form {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 85px;
     margin-left: 25px;
-
 }
 
 footer .contact-form input.send {
-  flex: 0 0 58%;
-  max-width: 58%;
-  text-transform: uppercase;
-  color: #fff;
-  cursor: pointer;
-  border: 0 none;
-  border-radius: 4px;
-  padding: 16px 0;
-  margin: 0 auto;
-  background: #b75d69;}
+    flex: 0 0 58%;
+    max-width: 58%;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    border: 0 none;
+    border-radius: 4px;
+    padding: 16px 0;
+    margin: 0 auto;
+    background: #b75d69;
+}
 
-  footer .contact-form input.name, footer .contact-form input.email, footer .contact-form textarea {
+footer .contact-form input.name,
+footer .contact-form input.email,
+footer .contact-form textarea {
     flex: 0 0 49%;
     max-width: 49%;
     color: #fff;
     background-color: transparent;
     border: 0 none;
-    border-bottom: 1px solid #b75d69;;
-   padding: 20px;
-    margin-bottom: 30px;}
-
-   
+    border-bottom: 1px solid #b75d69;
+    ;
+    padding: 20px;
+    margin-bottom: 30px;
+}
