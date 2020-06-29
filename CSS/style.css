@@ -251,3 +251,27 @@ table th {
     color: #B75D69;
     font-weight: bold;
 }
+#reset{
+	position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #B75D69;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 50%;
+    border: 1px solid #B75D69;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+#reset:hover {
+	border: 1px solid #774C60;
+	text-shadow: 1px 1px #F8F8F8;
+    transform: translate(-4px, -4px);
+    transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+}

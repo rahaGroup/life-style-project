@@ -41,7 +41,8 @@ Exercise.prototype.render = function () {
   videoData.appendChild(video);
   var tdDelete = document.createElement('td');
   tdDelete['data-index'] = this.index;
-  tdDelete.textContent = "x";
+  tdDelete.textContent = '✔';
+  tdDelete.id='delete';
   tdDelete.addEventListener("click", this.delete);
   row.appendChild(videoData);
   row.appendChild(tdDelete);
