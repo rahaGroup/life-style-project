@@ -8,10 +8,7 @@ body {
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-}
-
-html {
-    box-sizing: border-box;
+    background-color: #EACDC2;
 }
 
 *,
@@ -29,22 +26,26 @@ html {
     justify-content: space-evenly;
     align-items: center;
     background-color: #372549;
+    margin: auto;
 }
 
 .header img {
-    height: 100px;
+    height: 50px;
+    padding-left: 2rem;
 }
 
 .header h1 {
     font-size: 2rem;
     color: #EACDC2;
     font-family: 'Raleway', sans-serif;
+    margin-right: 320px;
 }
 
 .header ul {
     display: inline;
     font-size: 1rem;
     padding: 20px;
+    margin: auto;
 }
 
 .header ul a {
@@ -52,15 +53,52 @@ html {
     color: #EACDC2;
     padding: 20px;
     font-family: 'Raleway', sans-serif;
+    margin: auto;
+}
+
+ul a:hover {
+    background-color: #EACDC2;
+    color: #372549;
+    transition-duration: 0.5s;
+}
+
+.main {
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainH1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #372549;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    padding-right: 2rem;
+}
+
+.mainH2 {
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    padding-top: 2rem;
+    padding-right: 2rem;
 }
 
 
 /* Slideshow container */
 
 .slideshow-container {
-    max-width: 100%;
+    max-width: 1000px;
     position: relative;
     margin: auto;
+    opacity: .65;
 }
 
 
