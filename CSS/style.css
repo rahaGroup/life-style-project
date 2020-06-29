@@ -58,7 +58,7 @@
 }
 
 .form-style-5 .number {
-    background: #1abc9c;
+    background: #B75D69;
     color: #fff;
     height: 30px;
     width: 30px;
@@ -77,18 +77,18 @@
     padding: 19px 39px 18px 39px;
     color: #FFF;
     margin: 0 auto;
-    background: #1abc9c;
+    background: #B75D69;
     font-size: 18px;
     text-align: center;
     font-style: normal;
     width: 100%;
-    border: 1px solid #16a085;
+    border: 1px solid #B75D69;
     border-width: 1px 1px 3px;
     margin-bottom: 10px;
 }
 
 .form-style-5 button:hover {
-    background: #109177;
+    background: #774C60;
 }
 
 
@@ -129,14 +129,22 @@ margin-left: 35%;
 a:hover { color: #1c1c1c;
 text-decoration: underline;
 }
-#info, #advice {
-background-color: #1abc9c;
+#info {
+background-color: #B75D69;
 width: 70%;
 margin-left: 15%;
 padding: 20px;
 }
 #advice{
   margin-bottom: 20px;
+  background-color: #B75D69;
+  width: 70%;
+  margin-left: 15%;
+  padding: 10px;
+}
+#advice p {
+	padding: 20px;
+	margin-bottom: 50px;
 }
 #feedback{
   border: 5px white solid;
