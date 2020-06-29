@@ -6,6 +6,7 @@ var Exercise = function(name,positioning,image,video){
     this.video=video;
     this.finished= false;
     exercises.push(this);
+    localStorage.setItem('exercises',JSON.stringify(exercises));
 
 }
 var names = ['Side Steps', 'Side Taps', 'One-Legged Stand', 'Adductors Strengthening'];
