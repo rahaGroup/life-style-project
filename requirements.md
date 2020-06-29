@@ -2,9 +2,9 @@
 
 **Our vision is to be the premier medically-based health and wellness facility providing innovative, collaborative programming centered on the whole-health and well-being of our community and our region. We will be known for an exceptional member experience, with the highest quality fitness services. We will deliver innovative fitness and lifestyle programs; our friendly, professional staff will inspire and support you in your commitment to enhancing the quality of your life, one person at a time.**
 
-# Scope : 
+# Scope :
 
-- in : 
+- in :
 1- The web app will provide information to the users about the importance of sports to our life .
 2- The web app will provide multiple plans according to his body details .
 3- Users will be able to “Star” their favorite exercise .
@@ -28,4 +28,4 @@ the website will never turn into a real gym . we will always develop our site .
 
 
 
-# test 
+# test

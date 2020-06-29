@@ -21,13 +21,13 @@ User.prototype.getHealthStatus = function(){
     } else {
         return "Obese";
     }
-} 
+}
 User.prototype.NoOfCalries = function(){
     if(this.gender === 'male'){
        return 10 * this.weight + 6.25 * this.height - 5 * this.age + 5;
     } else {
         return 10 * this.weight + 6.25 * this.height - 5 * this.age - 161;
-    }   
+    }
 }
 var createUser = function(event){
     event.preventDefault();
@@ -52,4 +52,3 @@ var advice = function(user){
 }
 console.log(users)
 submitData.addEventListener('submit',createUser);
-
