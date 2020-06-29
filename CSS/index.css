@@ -54,6 +54,7 @@ body {
     padding: 20px;
     font-family: 'Raleway', sans-serif;
     margin: auto;
+    font-weight: bolder;
 }
 
 ul a:hover {
