@@ -39,7 +39,7 @@ var createUser = function(event){
     var user = new User(name,age,weight,height,gender);
     advice(user);
 }
-var advice = function(user){
+var advscriptice = function(user){
     var result = document.getElementById('advice');
     var feedback = document.createElement('p');
     feedback.textContent = 'Hello '+user.name+', Your Body Mass Index is '+ user.healthStatus +
@@ -51,5 +51,4 @@ var advice = function(user){
     result.appendChild(feedback2);
 }
 console.log(users)
-// const submitData = document.getElementById("")
 submitData.addEventListener('submit',createUser);
