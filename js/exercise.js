@@ -45,8 +45,8 @@ var render = function(){
         tdDelete.onclick = function (e) {
           return deleteExcercise(e);
         }
-        row.appendChild(tdDelete);
         row.appendChild(videoData);
+        row.appendChild(tdDelete);
         table.appendChild(row);
     }
 }
