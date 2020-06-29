@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 body{
-	background-image: linear-gradient(to bottom right, #EACDC2,rgba(183,93,105,0.3));
+	background-color:#f8f8f8;
 
 }
 .form-style-5 {
@@ -9,7 +9,7 @@ body{
     background: #f4f7f8;
     margin: 10px auto;
     padding: 20px;
-    background: #f4f7f8;
+    background: rgba(234, 205, 194,0.2);
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -92,9 +92,9 @@ body{
 }
 
 .form-style-5 button:hover {
-    background: #774C60;
+	background: #774C60;
+	border: 1px solid #774C60;
 }
-
 
 /* ///////////// */
 #info {
@@ -120,7 +120,7 @@ line-height: 36px;
 margin: 20px 0 24px ;
 text-align: center; }
 
-#info p { color: #f8f8f8;
+#info p, #advice p { color: #f8f8f8;
 font-family: 'Raleway',sans-serif;
 font-size: 18px;
 font-weight: 500;
@@ -162,13 +162,16 @@ table img{
 	width: 200px;
 	height: 200px;
 }
-/* /////////// */
+table td:hover{
+	width: 300px;
+	height: 300px;
+}
 table {
 	border: 1px solid #ccc;
 	border-collapse: collapse;
-	margin: 0;
+	margin: 15px;
 	padding: 0;
-	width: 100%;
+	width: 98%;
 	table-layout: fixed;
   }
   
