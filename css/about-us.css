@@ -3,13 +3,9 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
 html,
 body {
-    width: 100%;
-    height: 100%;
-}
-
-body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: auto;
+    background-color: #EACDC2;
 }
 
 html {
@@ -22,6 +18,17 @@ html {
     box-sizing: inherit;
 }
 
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #372549;
+    margin: auto;
+}
+
+.header img {
+    height: 50px;
+    padding-left: 2rem;
 
 
 
@@ -45,11 +52,18 @@ html {
 
 }
 
-.card:hover{
-  transform: scale(1);
-  box-shadow: 5px 20px 30px rgba(0,0,0,0.2);
+.header h1 {
+    font-size: 2rem;
+    color: #EACDC2;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 320px;
 }
 
+.header ul {
+    display: inline;
+    font-size: 1rem;
+    padding: 20px;
+    margin: auto;
 
 .about-section {
     padding: 50px;
@@ -58,11 +72,19 @@ html {
     color: white;
 }
 
-.container {
-  padding: 0 16px;
-  text-align: center;
+.header ul a {
+    text-decoration: none;
+    color: #EACDC2;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    font-weight: bolder;
 }
 
+ul a:hover {
+    background-color: #EACDC2;
+    color: #372549;
+    transition-duration: 0.5s;
 .container::after,
 .row::after {
     content: "";
