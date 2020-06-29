@@ -30,9 +30,21 @@ html {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
+  box-shadow: 0 4px 8px 0 rgba(254, 82, 76, 1);
+  margin: 8px;
+  transform: scale(0.95);
+  transition: box-shadow 0.5s,
+   transform 0.5s;
+ 
+
+
 }
+
+.card:hover{
+  transform: scale(1);
+  box-shadow: 5px 20px 30px rgba(0,0,0,0.2);
+}
+
 
 .about-section {
     padding: 50px;
@@ -41,10 +53,9 @@ html {
     color: white;
 }
 
-.about-section :hover {}
-
 .container {
-    padding: 0 16px;
+  padding: 0 16px;
+  text-align: center;
 }
 
 .container::after,
@@ -73,11 +84,30 @@ html {
 .button:hover {
     background-color: rgba(254, 82, 76, 1);
 }
+img{
+  border-radius: 50%;
+  position: relative;
+  left: 90px;
+  top:15px;
 
-img {
-    border-radius: 50%;
 }
 
-h2 {
-    color: rgba(254, 82, 76, 1);
+h2{
+  color: rgba(254, 82, 76, 1);
+
+}
+
+.mapouter{
+  position: absolute;;
+
+   left: 600px;
+  height:500px;
+  
+  width:600px;
+}
+.gmap_canvas 
+{
+  overflow:hidden;
+  background:none!important;
+  height:500px;width:600px;
 }
