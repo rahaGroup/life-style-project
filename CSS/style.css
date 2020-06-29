@@ -52,11 +52,9 @@
     background: #d2d9dd;
 }
 
-.form-style-5 .gender,
-#male,
-#female {
-    display: inline-block;
-    width: 40%;
+.form-style-5 .gender, #male, #female{
+  display: inline-block;
+  width: 10%;
 }
 
 .form-style-5 .number {
@@ -95,64 +93,102 @@
 
 
 /* ///////////// */
+h1 { color: #ffffff;
+font-family: 'Raleway',sans-serif;
+font-size: 62px;
+font-weight: 800;
+line-height: 72px;
+margin: 0 0 24px;
+text-align: center;
+text-transform: uppercase; }
 
-h1 {
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 62px;
-    font-weight: 800;
-    line-height: 72px;
-    margin: 0 0 24px;
-    text-align: center;
-    text-transform: uppercase;
-}
 
-h2 {
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 36px;
-    margin: 20px 0 24px;
-    text-align: center;
-}
+h2 { color: #ffffff;
+font-family: 'Raleway',sans-serif;
+font-size: 30px;
+font-weight: 800;
+line-height: 36px;
+margin: 20px 0 24px ;
+text-align: center; }
 
-p {
-    color: #f8f8f8;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 32px;
-    margin: 0 0 24px;
-    margin-left: 5%;
-    margin-right: 5%;
-    /* background-color: #1abc9c;  */
-}
 
-a {
-    color: #c8c8c8;
-    text-decoration: underline;
-    margin-left: 35%;
+p { color: #f8f8f8;
+font-family: 'Raleway',sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+margin: 0 0 24px;
+margin-left: 5%;
+margin-right: 5%;
+/* background-color: #1abc9c;  */
 }
-
-a:hover {
-    color: #1c1c1c;
-    text-decoration: underline;
+a { color: #c8c8c8;
+text-decoration: underline;
+margin-left: 35%;
 }
-
-#info,
-#advice {
-    background-color: #1abc9c;
-    width: 70%;
-    margin-left: 15%;
-    padding: 20px;
+a:hover { color: #1c1c1c;
+text-decoration: underline;
 }
-
-#advice {
-    margin-bottom: 20px;
+#info, #advice {
+background-color: #1abc9c;
+width: 70%;
+margin-left: 15%;
+padding: 20px;
 }
-
-#feedback {
-    border: 5px white solid;
-    padding: 10px;
+#advice{
+  margin-bottom: 20px;
 }
+#feedback{
+  border: 5px white solid;
+  padding: 10px;
+}
+/* /////////table///////// */
+iframe{
+	width:280px;
+	height:160px;
+	border:0;
+}
+table img{
+	width: 200px;
+	height: 200px;
+}
+/* /////////// */
+table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	table-layout: fixed;
+  }
+  
+  table tr {
+	background-color: #f8f8f8;
+	border: 2px solid #ddd;
+	padding: .35em;
+  }
+  #delete{
+	  font-size: 40px;
+	  color: #B75D69;
+  }
+  
+  table th,
+  table td {
+	padding: .625em;
+	text-align: center;
+	color: #B75D69;
+	font-size: 20px;
+  }
+  
+  table th {
+	font-size: 22px;
+	background-color: #EACDC2;
+	height: 35px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+  }
+  #exercises{
+	  color: #B75D69;
+	  font-weight: bold;
+  }
+  
