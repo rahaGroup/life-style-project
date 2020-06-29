@@ -7,12 +7,15 @@
     <title>RAHA Fitness</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/chart.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 </head>
 
 <body>
     <header>
         <div class="header">
             <img src="img/RAHA fitness inc..png" alt="logo">
+
             <h1>RAHA FITNESS</h1>
             <ul>
                 <a href="index.html" class="home">HOME</a>
@@ -71,11 +74,18 @@
 
 
     </main>
+
+
+    <div id="chartContainer">
+    <canvas id="myChart"></canvas>
+    </div>
+    
+
     <footer>
         <p>COPYRIGHT © RAHA GROUP</p>
     </footer>
-    <script src="js/script.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/chart.js"></script>
 </body>
 
 </html>
