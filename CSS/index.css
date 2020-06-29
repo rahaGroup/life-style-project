@@ -58,12 +58,12 @@
 
 .text {
     color: #f2f2f2;
-    font-size: 15px;
+    font-size: 30pt;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
-    text-align: center;
+    text-align: right;
 }
 
 
