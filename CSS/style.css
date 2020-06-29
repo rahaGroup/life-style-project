@@ -52,11 +52,9 @@
     background: #d2d9dd;
 }
 
-.form-style-5 .gender,
-#male,
-#female {
-    display: inline-block;
-    width: 40%;
+.form-style-5 .gender, #male, #female{
+  display: inline-block;
+  width: 10%;
 }
 
 .form-style-5 .number {
