@@ -42,7 +42,8 @@ var render = function(){
         video.setAttribute('SameSite','None');
         videoData.appendChild(video);
         var tdDelete = document.createElement('td');
-        tdDelete.textContent = "x";
+        tdDelete.id='delete';
+        tdDelete.textContent = '✔';
         tdDelete.onclick = function (e) {
           return deleteExcercise(e);
         }
