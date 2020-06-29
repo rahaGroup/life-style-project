@@ -15,7 +15,7 @@ var videos = ['https://www.youtube.com/embed/G96VH-jll1A','https://www.youtube.c
 
 var createExercise = function(){
     for (var i = 0; i < 5; i++) {
-        new Exercise(names[i],positionings[i],images[i],videos[i]);       
+        new Exercise(names[i],positionings[i],images[i],videos[i]);
     }
 }
 createExercise();
@@ -40,8 +40,20 @@ var render = function(){
         video.src = videos[i];
         video.setAttribute('SameSite','None');
         videoData.appendChild(video);
-        row.appendChild(videoData);  
-        table.appendChild(row); 
-    } 
+        var tdDelete = document.createElement('td');
+        tdDelete.textContent = "x";
+        tdDelete.onclick = function (e) {
+          return deleteExcercise(e);
+        }
+        row.appendChild(tdDelete);
+        row.appendChild(videoData);
+        table.appendChild(row);
+    }
 }
+
+function deleteExcercise(event){
+  const row = event.target.parentNode;
+  row.parentNode.removeChild(row);
+}
+
 render();
