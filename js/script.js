@@ -37,7 +37,7 @@ var createUser = function(event){
     var height = Number(event.target.height.value);
     var gender= event.target.gender.value;
     var user = new User(name,age,weight,height,gender);
-    advice(user);
+    advscriptice(user);
 }
 var advscriptice = function(user){
     var result = document.getElementById('advice');
