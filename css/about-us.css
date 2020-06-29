@@ -3,13 +3,9 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
 html,
 body {
-    width: 100%;
-    height: 100%;
-}
-
-body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: auto;
+    background-color: #EACDC2;
 }
 
 html {
@@ -22,92 +18,44 @@ html {
     box-sizing: inherit;
 }
 
-.column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #372549;
+    margin: auto;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(254, 82, 76, 1);
-  margin: 8px;
-  transform: scale(0.95);
-  transition: box-shadow 0.5s,
-   transform 0.5s;
- 
-
-
+.header img {
+    height: 50px;
+    padding-left: 2rem;
 }
 
-.card:hover{
-  transform: scale(1);
-  box-shadow: 5px 20px 30px rgba(0,0,0,0.2);
+.header h1 {
+    font-size: 2rem;
+    color: #EACDC2;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 320px;
 }
 
-
-.about-section {
-    padding: 50px;
-    text-align: center;
-    background-color: rgba(254, 82, 76, 1);
-    color: white;
+.header ul {
+    display: inline;
+    font-size: 1rem;
+    padding: 20px;
+    margin: auto;
 }
 
-.container {
-  padding: 0 16px;
-  text-align: center;
+.header ul a {
+    text-decoration: none;
+    color: #EACDC2;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    font-weight: bolder;
 }
 
-.container::after,
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.title {
-    color: grey;
-}
-
-.button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-}
-
-.button:hover {
-    background-color: rgba(254, 82, 76, 1);
-}
-img{
-  border-radius: 50%;
-  position: relative;
-  left: 90px;
-  top:15px;
-
-}
-
-h2{
-  color: rgba(254, 82, 76, 1);
-
-}
-
-.mapouter{
-  position: absolute;;
-
-   left: 600px;
-  height:500px;
-  
-  width:600px;
-}
-.gmap_canvas 
-{
-  overflow:hidden;
-  background:none!important;
-  height:500px;width:600px;
+ul a:hover {
+    background-color: #EACDC2;
+    color: #372549;
+    transition-duration: 0.5s;
 }
