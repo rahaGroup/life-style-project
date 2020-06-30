@@ -92,8 +92,8 @@ Exercise.load = function () {
 
 Exercise.reset = function (){
   exercises = [];
-  new Exercise("Side Steps", "Stand with your feet together.", "https://contents.mediadecathlon.com/s815829/460x0/296pt296/591xcr591/Side%20Steps.gif", "https://www.youtube.com/embed/G96VH-jll1A','https://www.youtube.com/embed/UNuhcy1eGjc", "https://www.youtube.com/embed/UNuhcy1eGjc");
-  new Exercise("Side Taps", "Stand with your feet together. Maintain your body weight in the middle of your body. ", "https://contents.mediadecathlon.com/s815809/460x0/296pt296/591xcr591/Side%20Taps.gif", "https://www.youtube.com/embed/ZLxyh_PEstI");
+  new Exercise("Side Steps", "Stand with your feet together.", "https://contents.mediadecathlon.com/s815829/460x0/296pt296/591xcr591/Side%20Steps.gif", "https://www.youtube.com/embed/G96VH-jll1A");
+  new Exercise("Side Taps", "Stand with your feet together. Maintain your body weight in the middle of your body. ", "https://contents.mediadecathlon.com/s815809/460x0/296pt296/591xcr591/Side%20Taps.gif", 'https://www.youtube.com/embed/UNuhcy1eGjc');
   new Exercise("One-Legged Stand", "Stand next to a wall or something that you can hold on to (just in case). Take off your shoes for better grip. Stand straight with your knees locked. ", 'https://contents.mediadecathlon.com/s815803/460x0/296pt296/592xcr592/One%20legged%20Stand.gif', 'https://www.youtube.com/embed/ZLxyh_PEstI');
   new Exercise("Adductors Strengthening", "'Lie down on the ground, on one side. Bend your upper leg and place it in front. Straighten your lower leg. The lower leg will do all the work!", "https://contents.mediadecathlon.com/s815881/460x0/296pt296/592xcr591/Adductors.gif", "https://www.youtube.com/embed/dRIMu4GAtI0");
 }
