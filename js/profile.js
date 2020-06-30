@@ -12,10 +12,10 @@ const resetExcercises = function(e) {
 resetButton.addEventListener("click", resetExcercises);
 
 Exercise.load();
-if (exercises.length) { // if not exercises => reset them
+if (exercises.length) { // if no exercises => reset (show them)
   Exercise.renderExercisesTable();
 } else {
   resetExcercises();
 }
 
-console.log(exercises);
+console.log("exercises", exercises);

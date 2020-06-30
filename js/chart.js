@@ -1,4 +1,13 @@
-function renderChart(labels, shownDataset, clickedDataset) {
+function renderChart() {
+
+  var usersNames = ["temp"];
+  var usersWeights = [100];
+
+  if (users.length){
+    usersNames = users.map((user) => user.name);
+    usersWeights = users.map((user) => user.weight);
+  }
+
 const ctx = document.getElementById('myChart').getContext('2d');
 const chart = new Chart(ctx, {
     // The type of chart we want to create
@@ -6,12 +15,12 @@ const chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: labels,
+        labels: usersNames,
         datasets: [{
             label: 'Shown',
             backgroundColor: ['rgb(51, 51, 51)', "green", "red", "blue", "pink", 'yellow', "gray"],
             borderColor: 'rgb(255, 99, 132)',
-            data: shownDataset
+            data: usersWeights
         }]
     },
 
@@ -29,7 +38,16 @@ const chart = new Chart(ctx, {
 }
 
 
-const labels = ["label1", "label2", "label3", "labe4", "label1", "label2", "label3", "labe4"];
-const shownDataset = [1, 2, 3, 4, 1, 2, 3, 4];
-const clickedDataset = [4, 3, 2, 1, 4, 3, 2, 1]
-renderChart(labels, shownDataset, clickedDataset);
+// load users to show them in pie chart;
+User.load();
+
+console.log("users", users);
+
+renderChart();
+
+const resetChartButton = document.getElementById("resetChart");
+resetChartButton.addEventListener("click", function() {
+  User.reset();
+  User.save();
+  renderChart();
+});
