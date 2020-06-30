@@ -135,7 +135,7 @@ body{
     text-transform: uppercase;
 }
 
-#info h2, #check {
+#info h2, #check, #exercises {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
