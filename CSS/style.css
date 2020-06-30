@@ -135,7 +135,7 @@ body{
     text-transform: uppercase;
 }
 
-h2 {
+#info h2, #check {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
@@ -246,8 +246,10 @@ table th {
     letter-spacing: .1em;
     text-transform: uppercase;
 }
-
-#exercises {
+#check{
+    color: #B75D69;
+}
+#exercises  {
     color: #B75D69;
     font-weight: bold;
 }
