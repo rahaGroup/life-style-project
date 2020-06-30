@@ -35,16 +35,16 @@
                 <legend><span class="number">❤</span> User Info</legend>
                 <fieldset>
                     <label for="name">Name:</label>
-                    <input id="name" type="text" placeholder="Your Name"><br>
+                    <input required id="name" type="text" placeholder="Your Name"><br>
                     <label for="age">Age:</label>
-                    <input id="age" type="number" placeholder="Your age"><br>
+                    <input min="13" required id="age" type="number" placeholder="Your age"><br>
                     <label for="weight">Weight(Kg):</label>
-                    <input id="weight" type="number" placeholder="Your Weight"><br>
+                    <input min="20" required id="weight" type="number" placeholder="Your Weight"><br>
                     <label for="height">Height(cm)</label>
-                    <input id="height" type="number" placeholder="Your Height"><br>
+                    <input min="100" required id="height" type="number" placeholder="Your Height"><br>
                     <label for="gender">Gender:</label><br>
                     <label for="male" class="gender">Male</label>
-                    <input type="radio" id="male" name="gender" value="male">
+                    <input checked type="radio" id="male" name="gender" value="male">
                     <label for="female" class="gender">Female</label>
                     <input type="radio" id="female" name="gender" value="female">
                     <br>
