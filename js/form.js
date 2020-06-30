@@ -12,6 +12,10 @@ var createUser = function(event){
     var gender= event.target.gender.value;
     var user = new User(name,age,weight,height,gender);
     advice(user);
+    event.target.name.value = null;
+    event.target.age.value= null;
+    event.target.weight.value = null;
+    event.target.height.value = null;
 }
 var advice = function(user){
     var result = document.getElementById('advice');
