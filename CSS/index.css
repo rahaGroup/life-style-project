@@ -115,6 +115,16 @@ ul a:hover {
     padding-right: 2rem;
 }
 
+#chartContainer p {
+    font-size: 1.3rem;
+    color: #372549;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
 
 /* Slideshow container */
 
@@ -265,4 +275,50 @@ footer p {
     margin-bottom: 20px;
     font-size: 18px;
     color: #EACDC2;
+}
+
+
+/* Shrink button ----------------------- */
+
+.hvr-pulse-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    border: none;
+    background-color: #372549;
+    color: #EACDC2;
+    width: 100px;
+    height: 40px;
+    font-size: 15pt;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hvr-pulse-shrink:hover,
+.hvr-pulse-shrink:active {
+    -webkit-animation-name: hvr-pulse-shrink;
+    animation-name: hvr-pulse-shrink;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes hvr-pulse-shrink {
+    to {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes hvr-pulse-shrink {
+    to {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
 }
