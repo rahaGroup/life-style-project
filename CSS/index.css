@@ -94,6 +94,16 @@ ul a:hover {
     padding-right: 2rem;
 }
 
+.main p {
+    font-size: 1.3rem;
+    color: #372549;
+    width: 400px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
 .mainH2 {
     text-align: center;
     font-size: 3rem;
@@ -226,4 +236,33 @@ ul a:hover {
     to {
         opacity: 1
     }
+}
+
+footer {
+    background-color: #372549;
+    color: #EACDC2;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #EACDC2;
+    margin: 20px;
+}
+
+footer h3 strong {
+    font-size: 40px;
+    color: #EACDC2;
+    margin: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #EACDC2;
 }

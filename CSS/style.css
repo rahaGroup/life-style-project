@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-body{
-	background-color:#f8f8f8;
+body {
+    background-color: #f8f8f8;
 }
 
 .form-style-5 {
@@ -13,9 +13,11 @@ body{
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
-.form-style-5:hover{
-	background: #EACDC2;
-	max-width: 550px;
+
+.form-style-5:hover {
+    background: #EACDC2;
+    max-width: 550px;
+    transition-duration: 0.5s;
 }
 
 .form-style-5 fieldset {
@@ -98,8 +100,8 @@ body{
 }
 
 .form-style-5 button:hover {
-	border: 1px solid #774C60;
-	text-shadow: 1px 1px #F8F8F8;
+    border: 1px solid #774C60;
+    text-shadow: 1px 1px #F8F8F8;
     transform: translate(-4px, -4px);
     transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
@@ -135,7 +137,9 @@ body{
     text-transform: uppercase;
 }
 
-#info h2, #check, #exercises {
+#info h2,
+#check,
+#exercises {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
@@ -246,15 +250,18 @@ table th {
     letter-spacing: .1em;
     text-transform: uppercase;
 }
-#check{
+
+#check {
     color: #B75D69;
 }
-#exercises  {
+
+#exercises {
     color: #B75D69;
     font-weight: bold;
 }
-#reset{
-	position: relative;
+
+#reset {
+    position: relative;
     display: block;
     padding: 19px 39px 18px 39px;
     color: #FFF;
@@ -268,9 +275,10 @@ table th {
     border-width: 1px 1px 3px;
     margin-bottom: 10px;
 }
+
 #reset:hover {
-	border: 1px solid #774C60;
-	text-shadow: 1px 1px #F8F8F8;
+    border: 1px solid #774C60;
+    text-shadow: 1px 1px #F8F8F8;
     transform: translate(-4px, -4px);
     transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
