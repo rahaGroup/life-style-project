@@ -5,6 +5,7 @@ function User(name,age,weight,height,gender){
     this.age=age;
     this.weight=weight;
     this.height=height;
+    this.bmi = Math.floor(this.weight / ((this.height/100)^2)); //calculate Body Mass Index
     this.gender=gender;
     this.healthStatus = this.getHealthStatus();
     this.neededCalories = this.NoOfCalries();
@@ -12,12 +13,11 @@ function User(name,age,weight,height,gender){
     User.save();
 }
 User.prototype.getHealthStatus = function(){
-    var bmi = this.weight / ((this.height/100)^2); //calculate Body Mass Index
-    if(bmi < 18.5) {
+    if(this.bmi < 18.5) {
         return "Underweight";
-    } else if (bmi < 25) {
+    } else if (this.bmi < 25) {
         return "Normal";
-    } else if (bmi < 30) {
+    } else if (this.bmi < 30) {
         return "Overweight";
     } else {
         return "Obese";
