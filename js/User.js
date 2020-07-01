@@ -5,7 +5,7 @@ function User(name,age,weight,height,gender){
     this.age=age;
     this.weight=weight;
     this.height=height;
-    this.bmi = Math.floor(this.weight / ((this.height/100)^2)); //calculate Body Mass Index
+    this.bmi =this.weight / (Math.pow((this.height/100), 2)); //calculate Body Mass Index
     this.gender=gender;
     this.healthStatus = this.getHealthStatus();
     this.neededCalories = this.NoOfCalries();

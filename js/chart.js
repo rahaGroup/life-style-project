@@ -1,7 +1,7 @@
 function renderChart() {
 
-  var usersNames = ["temp"];
-  var usersBMIs = [100];
+  var usersNames = [];
+  var usersBMIs = [];
 
   if (users.length){
     usersNames = users.map((user) => user.name);
